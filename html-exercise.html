@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Exercise</title>
+  </head>
+  <body>
+    <table cellspacing="40">
+      <tr>
+        <td><img src="images/html5.png" alt="HTML5 Logo"></td>
+        <td>
+          <h1>HTML5 Exercise</h1>
+          <p><em>Reproduce this page without looking up anything on internet!</em><br>
+            <ul>
+              <li>All you need is this HTML logo and your coding skills.</li>
+              <li>All headings are <em>h3</em> except the one above, which is <em>h1</em>.</li>
+            </ul>
+           </p>
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <h3>1. Basic HTML Skills</h3>
+    <ul>
+      <li>Structuring HTML Text:
+        <ol>
+          <li>Headings: <em>h1-h6</em></li>
+          <li>Paragraph: <em>p</em></li>
+          <li>Using <em>em</em> and <em>strong</em></li>
+        </ol>
+      </li>
+      <li>HTML Lists: <em>ordered</em> and <em>unordered</em></li>
+      <li>HTML Images</li>
+      <li>Links and Anchor Tags</li>
+      <li>HTML Tables</li>
+      <li>HTML Forms
+        <ol>
+          <li>Form Attributes</li>
+          <li>Form Elements</li>
+          <li>Input Types</li>
+        </ol>
+      </li>
+    </ul>
+    <hr>
+    <h3>2. Top 5 Coding Resources</h3>
+    <p>We asked 5 coders to rank the following places in terms of how useful they
+      are to the coders when they are stuck. Here is a table summarizing how each
+      place ranks on a scale of 1 to 5.</p><br>
+    <p><em>Since you are not allowed to look up anything online, you should
+      know that the HTML code for the star used here is &#11088;</em></p>
+    <table cellspacing="20">
+        <tr>
+          <th>&nbsp;</th>
+          <th>Coder 1</th>
+          <th>Coder 2</th>
+          <th>Coder 3</th>
+          <th>Coder 4</th>
+          <th>Coder 5</th>
+          <th>Total Score</th>
+          <th>Star Rating</th>
+        </tr>
+        <tr>
+          <th><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></th>
+          <td>3</td>
+          <td>3</td>
+          <td>5</td>
+          <td>5</td>
+          <td>3</td>
+          <td>19</td>
+          <td>&#11088;&#11088;&#11088;&#11088;</td>
+        </tr>
+        <tr>
+          <th><a href="https://www.w3schools.com/default.asp">W3 Schools</a></th>
+          <td>3</td>
+          <td>2</td>
+          <td>4</td>
+          <td>3</td>
+          <td>5</td>
+          <td>17</td>
+          <td>&#11088;&#11088;&#11088;</td>
+        </tr>
+        <tr>
+          <th><a href="https://stackoverflow.com/">Stack Overflow</a></th>
+          <td>4</td>
+          <td>5</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>21</td>
+          <td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
+        </tr>
+        <tr>
+          <th><a href="https://www.youtube.com/">YouTube</a></th>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>2</td>
+          <td>1</td>
+          <td>15</td>
+          <td>&#11088;&#11088;</td>
+        </tr>
+        <tr>
+          <th><a href="https://www.udemy.com/">Udemy</a></th>
+          <td>2</td>
+          <td>1</td>
+          <td>4</td>
+          <td>2</td>
+          <td>4</td>
+          <td>13</td>
+          <td>&#11088;</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>3. Covid-19 Testing Appointment Form</h3>
+    <p>Since you are an HTML expert, Walgreens has asked you to create a form
+      that their patients can use to schedule Covid-19 testing. See if you can
+      help them.</p>
+      <form class="" action="index.html" method="post">
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" value=""><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" value=""><br>
+        <label for="gender">Gender: </label>
+        <select class="gender" name="gender">
+          <option value="select gender"selected>Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="birthday">Date of Birth: </label>
+        <input type="date" name="birthday" value=""><br>
+        <label for="race">Race: </label><br>
+        <input type="radio" name="native" value="Native">
+        <label for="native">American Indian or Alaska Native</label><br>
+        <input type="radio" name="asian" value="Asian">
+        <label for="asian">Asian</label><br>
+        <input type="radio" name="black" value="Black">
+        <label for="black">Black or African American</label><br>
+        <input type="radio" name="asian" value="Asian">
+        <label for="hawaiian">Native Hawaiian or Other Pacific Islander</label><br>
+        <input type="radio" name="hawaiian" value="Hawaiian">
+        <label for="white">White</label><br>
+        <input type="radio" name="decline" value="Decline">
+        <label for="decline">Decline to Answer</label><br>
+        <br>
+        <label for="ethnicity">Ethnicity: </label>
+        <select class="ethnicity" name="ethnicity"size="3" multiple>
+          <option value="hispanic">Hispanic or Latino</option>
+          <option value="non-hispanic">Non Hispanic or Latino</option>
+          <option value="decline">Decline to Answer</option>
+        </select><br><br>
+        <label for="state">State: </label>
+        <select class="state" name="state" size="5">
+          <option value="select state">Select State</option>
+          <option value="al">AL</option>
+          <option value="ak">AK</option>
+          <option value="az">AZ</option>
+          <option value="ar">AR</option>
+          <option value="ca">CA</option>
+          <option value="co">CO</option>
+          <option value="ct">CT</option>
+          <option value="de">DE</option>
+          <option value="dc">DC</option>
+          <option value="fl">FL</option>
+        </select><br><br>
+        <label for="favcolor">Select Your Favorite Color: </label>
+        <input type="color" name="favcolor" value=""><br>
+        <label for="email">Email Address: </label>
+        <input type="email" name="email" value="Required" required><br>
+        <label for="phone">Phone Number: </label>
+        <input type="tel" name="phone" value="" placeholder="123-456-7890"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+        <label for="comment">Your Comment: </label><br>
+        <textarea name="comment" rows="8" cols="30">Tell us what you think.</textarea><br>
+        <input type="submit" name="submit" value="Submit Form">
+      </form>
+      <hr>
+      <h3>Thank you!</h3>
+  </body>
+</html>
