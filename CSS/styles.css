@@ -2,12 +2,21 @@ body {
   background-color: #EAF6F6;
 }
 
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: #66BFBF;
+  text-decoration: underline blue wavy;
+}
+
 hr {
   border-style: none;
   border-top: 5px dotted grey;
   width: 5%;
 }
 
-h1, h3 {
-  color: #66BFBF;
+em {
+  text-decoration: underline #66BFBF wavy;
 }
