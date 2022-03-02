@@ -25,9 +25,25 @@ h3 {
   font-family: 'Montserrat', sans-serif;  
 }
 
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top: 10px dotted #EAF6F6;
+  width: 5%;
+  margin: 100px auto;
+}
+
 a {
   color: #11999E;
 }
+
+a:hover {
+  color: #EAF6F6;
+}
+
 .top-container {
   background-color: #EAF6F6;
   position: relative;
@@ -50,28 +66,23 @@ a {
   bottom: 40%;
 }
 
+.middle-container {
+  margin: 100px auto;
+}
+
 .profile {
   width: 50%;
-  margin: 100px auto;
-  line-height: 2;
+  margin: 100px auto;  
 }
 
 .img-innocent {
   width: 25%;  
 }
 
-hr {
-  border-style: none;
-  border-top: 10px dotted #EAF6F6;
-  width: 5%;
-  margin: 100px auto;
-}
-
 .skill-row {
   width: 50%;
   margin: 100px auto;
-  text-align: left;
-  line-height: 2;
+  text-align: left;  
 }
 
 .skill-html5 {
@@ -87,8 +98,7 @@ hr {
 
 .contact-me {
   width: 50%;
-  margin: 100px auto;
-  line-height: 2;
+  margin: 100px auto;  
 }
 
 .bfr-btn {
@@ -105,9 +115,9 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 28px;
+  font-size: 20px;
   padding: 15px 20px 15px 20px;
   text-decoration: none;
 }
@@ -119,13 +129,12 @@ hr {
 
 .bottom-container {
   background-color: #66BFBF;
-  margin: 120px auto;
+  margin-top: 120px;
   padding: 60px;
   border-top: 5px solid #11999E;
 }
 
-.footer-link {
-  color: #11999E;
+.footer-link { 
   margin: 30px;
   text-decoration: none;
 }
@@ -133,4 +142,5 @@ hr {
 .innocenth {
   color: #EAF6F6;
   padding-top: 30px;
+  font-size: 0.75em;
 }
